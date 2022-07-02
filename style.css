@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: beige;
+}
+
+
+.container {
+    flex-direction: column;
+    width: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+
+
+.todo-Add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.todo-Add button {
+    margin: 0px 25px;
+    width: 90px;
+    height: 45px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0.5px solid rgb(126, 188, 255);
+    cursor: pointer;
+    background-color: aqua;
+}
+
+
+
+.todo-Add input { 
+    padding: 25px;
+    width: 300px;
+    height: 50px;
+    border-radius: 12px;
+    border: 0.5px solid rgb(126, 188, 255);
+    font-size: 18px;
+}
+
+.todos {
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    background-color: rgb(175, 176, 98);
+    border-radius: 20px;
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+.todos button {
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+}
+
+.todos p {
+    margin: 20px;
+    display: flex;
+}
+
+.finish {
+    background-color: #eee;
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+}
